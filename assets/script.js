@@ -1,6 +1,7 @@
 $(function () {
 	$("#sod").on("click", function () {
 		$("#sod").addClass("active");
+		$("body").removeClass("body");
 		$("#en").removeClass("active");
 		$("#pn").removeClass("active");
 		$(".container").empty();
@@ -18,6 +19,7 @@ $(function () {
 
 	$("#en").on("click", function () {
 		$("#en").addClass("active");
+		$("body").removeClass("body");
 		$("#sod").removeClass("active");
 		$("#pn").removeClass("active");
 		$(".container").empty();
@@ -37,6 +39,7 @@ $(function () {
 
 	$("#pn").on("click", function () {
 		$("#pn").addClass("active");
+		$("body").removeClass("body");
 		$("#on").removeClass("active");
 		$("#sod").removeClass("active");
 		$("#en").removeClass("active");
@@ -57,6 +60,7 @@ $(function () {
 
 	$("#tn").on("click", function () {
 		$("#tn").addClass("active");
+		$("body").removeClass("body");
 		$("#pn").removeClass("active");
 		$("#on").removeClass("active");
 		$("#sod").removeClass("active");
@@ -77,6 +81,7 @@ $(function () {
 
 	$("#fact").on("click", function () {
 		$("#fact").addClass("active");
+		$("body").removeClass("body");
 		$("#tn").removeClass("active");
 		$("#pn").removeClass("active");
 		$("#on").removeClass("active");
@@ -97,6 +102,7 @@ $(function () {
 
 	$("#armn").on("click", function () {
 		$("#armn").addClass("active");
+		$("body").removeClass("body");
 		$("#fact").removeClass("active");
 		$("#tn").removeClass("active");
 		$("#pn").removeClass("active");
@@ -120,6 +126,7 @@ $(function () {
 
 	$("#pln").on("click", function () {
 		$("#pln").addClass("active");
+		$("body").removeClass("body");
 		$("#armn").removeClass("active");
 		$("#fact").removeClass("active");
 		$("#tn").removeClass("active");
@@ -144,6 +151,7 @@ $(function () {
 
 	$("#fibos").on("click", function () {
 		$("#fibos").addClass("active");
+		$("body").removeClass("body");
 		$("#pln").removeClass("active");
 		$("#armn").removeClass("active");
 		$("#fact").removeClass("active");
